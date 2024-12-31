@@ -3,7 +3,7 @@ deployment:
     app: automount-app
     replicas: 1
     image: adnan10101/automount
-    tag: 0.0.1
+    tag: 0.0.4
 
 service:
     name: automount-svc
