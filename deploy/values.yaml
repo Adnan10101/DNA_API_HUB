@@ -1,0 +1,11 @@
+deployment:
+    name: automount
+    app: automount-app
+    replicas: 1
+    image: adnan10101/automount
+    tag: 0.0.1
+
+service:
+    name: automount-svc
+    port: 6001
+    nodePort: 32196
