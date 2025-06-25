@@ -1,11 +1,11 @@
 deployment:
-    name: automount
-    app: automount-app
+    name: api-hub
+    app: api-hub-app
     replicas: 1
-    image: adnan10101/automount
-    tag: 0.0.4
+    image: adnan10101/dna-api-hub
+    tag: 0.0.1
 
 service:
-    name: automount-svc
+    name: apihub-svc
     port: 6001
-    nodePort: 32196
+    #nodePort: 32196
