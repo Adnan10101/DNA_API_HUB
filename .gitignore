@@ -1,2 +1,2 @@
-app/volume_backend/.env
+app/hub_api/.env
 fastapi_env
